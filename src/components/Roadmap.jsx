@@ -3,6 +3,10 @@ import Section from "./Section";
 import Tagline from "./Tagline";
 import {Gradient} from "./design/Roadmap";
 import {useTranslation} from "react-i18next";
+import one from 'src/assets/roadmap/image-1.png'
+import two from 'src/assets/roadmap/image-2.png'
+import three from 'src/assets/roadmap/image-3.png'
+import four from 'src/assets/roadmap/image-4.png'
 
 
 const Roadmap = () => {
@@ -22,15 +26,13 @@ const Roadmap = () => {
                                     <Tagline>{t("roadmapDate")}</Tagline>
                                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                                         <img className="mr-2.5" src="/src/assets/loading.png" width={16} height={16} alt='loading'/>
-
-                                        /src/assets/loading.png
                                         <div className="tagline">progress</div>
                                     </div>
                                 </div>
                                 <div className="mb-10 -my-10 -mx-15">
                                     <img
                                         className="w-full"
-                                        src="/src/assets/roadmap/image-1.png"
+                                        src={one}
                                         width={628}
                                         height={426}
                                         alt='image-1'
@@ -57,7 +59,7 @@ const Roadmap = () => {
                                 <div className="mb-10 -my-10 -mx-15">
                                     <img
                                         className="w-full"
-                                        src="/src/assets/roadmap/image-2.png"
+                                        src={two}
                                         width={628}
                                         height={426}
                                         alt='image-2'
@@ -85,7 +87,7 @@ const Roadmap = () => {
                                 <div className="mb-10 -my-10 -mx-15">
                                     <img
                                         className="w-full"
-                                        src="/src/assets/roadmap/image-3.png"
+                                        src={three}
                                         width={628}
                                         height={426}
                                         alt='image-3'
@@ -112,7 +114,7 @@ const Roadmap = () => {
                                 <div className="mb-10 -my-10 -mx-15">
                                     <img
                                         className="w-full"
-                                        src="/src/assets/roadmap/image-4.png"
+                                        src={four}
                                         width={628}
                                         height={426}
                                         alt='image-4'
