@@ -2,7 +2,6 @@ import {curve} from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import {BottomLine, Gradient} from "./design/Hero";
-import {heroIcons} from "../constants";
 import {ScrollParallax} from "react-just-parallax";
 import {useRef} from "react";
 import CompanyLogos from "./CompanyLogos";
@@ -11,6 +10,7 @@ import {useTranslation} from "react-i18next";
 import Generating from "./Generating.jsx";
 import Notification from "./Notification";
 import LeftAnswer from "./LeftAnswer.jsx";
+
 
 const Hero = () => {
     const {t, i18n} = useTranslation();
