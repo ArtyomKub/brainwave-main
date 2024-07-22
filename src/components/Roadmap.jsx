@@ -82,6 +82,7 @@ const Roadmap = () => {
                                     </div>
                                 </div>
                                 <div className="mb-10 -my-10 -mx-15">
+
                                     <img
                                         className="w-full"
                                         src="/src/assets/roadmap/image-3.png"
