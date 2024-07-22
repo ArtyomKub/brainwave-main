@@ -3,10 +3,7 @@ import Section from "./Section";
 import Tagline from "./Tagline";
 import {Gradient} from "./design/Roadmap";
 import {useTranslation} from "react-i18next";
-import one from 'src/assets/roadmap/image-1.png'
-import two from 'src/assets/roadmap/image-2.png'
-import three from 'src/assets/roadmap/image-3.png'
-import four from 'src/assets/roadmap/image-4.png'
+
 
 
 const Roadmap = () => {
@@ -32,7 +29,7 @@ const Roadmap = () => {
                                 <div className="mb-10 -my-10 -mx-15">
                                     <img
                                         className="w-full"
-                                        src={one}
+                                        src="/src/assets/roadmap/image-1.png"
                                         width={628}
                                         height={426}
                                         alt='image-1'
@@ -59,7 +56,7 @@ const Roadmap = () => {
                                 <div className="mb-10 -my-10 -mx-15">
                                     <img
                                         className="w-full"
-                                        src={two}
+                                        src="/src/assets/roadmap/image-2.png"
                                         width={628}
                                         height={426}
                                         alt='image-2'
@@ -87,7 +84,7 @@ const Roadmap = () => {
                                 <div className="mb-10 -my-10 -mx-15">
                                     <img
                                         className="w-full"
-                                        src={three}
+                                        src="/src/assets/roadmap/image-3.png"
                                         width={628}
                                         height={426}
                                         alt='image-3'
@@ -114,7 +111,7 @@ const Roadmap = () => {
                                 <div className="mb-10 -my-10 -mx-15">
                                     <img
                                         className="w-full"
-                                        src={four}
+                                        src="/src/assets/roadmap/image-4.png"
                                         width={628}
                                         height={426}
                                         alt='image-4'
