@@ -21,7 +21,7 @@ const Benefits = () => {
                             <h5 className="h5 mb-5">{t("firstCard")}</h5>
                             <p className="body-2 mb-6 text-n-3">{t("firstCardText")}</p>
                             <div className="flex items-center mt-auto">
-                                <img src={"/src/assets/benefits/icon-1.svg"} width={48} height={48}/>
+                                <img src={"./src/assets/benefits/icon-1.svg"} width={48} height={48}/>
                                 {/*<p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">*/}
                                 {/*  Explore more*/}
                                 {/*</p>*/}
@@ -30,7 +30,7 @@ const Benefits = () => {
                         </div>
                         <div className="absolute inset-0.5 bg-n-8" style={{clipPath: "url(#benefits)"}}>
                             <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
-                                <img src={"/src/assets/benefits/image-2.png"} width={380} height={362}
+                                <img src={"./src/assets/benefits/image-2.png"} width={380} height={362}
                                      className="w-full h-full object-cover"/>
                             </div>
                         </div>
