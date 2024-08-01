@@ -16,13 +16,13 @@ const Roadmap = () => {
                     <div className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] bg-conic-gradient"`}>
                         <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
                             <div className="absolute top-0 left-0 max-w-full">
-                                <img className="w-full" src="./brainwave-main/grid.png" width={550} height={550} alt='grid'/>
+                                <img className="w-full" src="./image/grid.png" width={550} height={550} alt='grid'/>
                             </div>
                             <div className="relative z-1">
                                 <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                                     <Tagline>{t("roadmapDate")}</Tagline>
                                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
-                                        <img className="mr-2.5" src="./src/assets/loading.png" width={16} height={16} alt='loading'/>
+                                        <img className="mr-2.5" src="./image/loading.png" width={16} height={16} alt='loading'/>
                                         <div className="tagline">progress</div>
                                     </div>
                                 </div>
@@ -43,20 +43,20 @@ const Roadmap = () => {
                     <div className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] bg-conic-gradient"`}>
                         <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
                             <div className="absolute top-0 left-0 max-w-full">
-                                <img className="w-full" src="./src/assets/grid.png" width={550} height={550} alt='grid'/>
+                                <img className="w-full" src="./image/grid.png" width={550} height={550} alt='grid'/>
                             </div>
                             <div className="relative z-1">
                                 <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                                     <Tagline>{t("roadmapDate2")}</Tagline>
                                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
-                                        <img className="mr-2.5" src="./src/assets/loading.png" width={16} height={16} alt='loadig'/>
+                                        <img className="mr-2.5" src="./image/loading.png" width={16} height={16} alt='loadig'/>
                                         <div className="tagline">progress</div>
                                     </div>
                                 </div>
                                 <div className="mb-10 -my-10 -mx-15">
                                     <img
                                         className="w-full"
-                                        src="./src/assets/roadmap/image-2.png"
+                                        src={"./image/image-2.png"}
                                         width={628}
                                         height={426}
                                         alt='image-2'
@@ -71,13 +71,13 @@ const Roadmap = () => {
                     <div className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] bg-conic-gradient"`}>
                         <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
                             <div className="absolute top-0 left-0 max-w-full">
-                                <img className="w-full" src="./src/assets/grid.png" width={550} height={550} alt='grid'/>
+                                <img className="w-full" src="./image/grid.png" width={550} height={550} alt='grid'/>
                             </div>
                             <div className="relative z-1">
                                 <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                                     <Tagline>{t("roadmapDate3")}</Tagline>
                                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
-                                        <img className="mr-2.5" src="./src/assets/loading.png" width={16} height={16} alt='loading'/>
+                                        <img className="mr-2.5" src="./image/loading.png" width={16} height={16} alt='loading'/>
                                         <div className="tagline">progress</div>
                                     </div>
                                 </div>
@@ -85,7 +85,7 @@ const Roadmap = () => {
 
                                     <img
                                         className="w-full"
-                                        src="./src/assets/roadmap/image-3.png"
+                                        src={"./image/image-3.png"}
                                         width={628}
                                         height={426}
                                         alt='image-3'
@@ -99,20 +99,20 @@ const Roadmap = () => {
                     <div className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] bg-conic-gradient"`}>
                         <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
                             <div className="absolute top-0 left-0 max-w-full">
-                                <img className="w-full" src="./src/assets/grid.png" width={550} height={550} alt='grid'/>
+                                <img className="w-full" src="./image/grid.png" width={550} height={550} alt='grid'/>
                             </div>
                             <div className="relative z-1">
                                 <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                                     <Tagline>{t("roadmapDate4")}</Tagline>
                                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
-                                        <img className="mr-2.5" src="./src/assets/loading.png" width={16} height={16} alt='loading'/>
+                                        <img className="mr-2.5" src="./image/loading.png" width={16} height={16} alt='loading'/>
                                         <div className="tagline">progress</div>
                                     </div>
                                 </div>
                                 <div className="mb-10 -my-10 -mx-15">
                                     <img
                                         className="w-full"
-                                        src="./src/assets/roadmap/image-4.png"
+                                        src={"./image/image-4.png"}
                                         width={628}
                                         height={426}
                                         alt='image-4'
