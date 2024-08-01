@@ -17,15 +17,15 @@ const Footer = () => {
                 </p>
                 <p>biteamsoft@gmail.com</p>
                 <ul className="flex gap-5 flex-wrap">
-                    <button className="hidden lg:flex" href="#login" onClick={()=>changeLanguage("pl")}>
-                        PL
-                    </button>
-                    <button className="hidden lg:flex" href="#login" onClick={()=>changeLanguage("ru")}>
-                        RU
-                    </button>
-                    <button className="hidden lg:flex" href="#login" onClick={()=>changeLanguage("en")}>
-                        EN
-                    </button>
+                    {/*<button className="hidden lg:flex" href="#login" onClick={()=>changeLanguage("pl")}>*/}
+                    {/*    PL*/}
+                    {/*</button>*/}
+                    {/*<button className="hidden lg:flex" href="#login" onClick={()=>changeLanguage("ru")}>*/}
+                    {/*    RU*/}
+                    {/*</button>*/}
+                    {/*<button className="hidden lg:flex" href="#login" onClick={()=>changeLanguage("en")}>*/}
+                    {/*    EN*/}
+                    {/*</button>*/}
                 </ul>
 
 
