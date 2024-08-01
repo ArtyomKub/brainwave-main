@@ -29,7 +29,7 @@ const Roadmap = () => {
                                 <div className="mb-10 -my-10 -mx-15">
                                     <img
                                         className="w-full"
-                                        src="./brainwave-main/image-1.png"
+                                        src={"./image/image-1.png"}
                                         width={628}
                                         height={426}
                                         alt='image-1'
