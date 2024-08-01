@@ -25,7 +25,7 @@ const Benefits = () => {
                                 {/*<p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">*/}
                                 {/*  Explore more*/}
                                 {/*</p>*/}
-                                <Arrow/>
+                                {/*<Arrow/>*/}
                             </div>
                         </div>
                         <div className="absolute inset-0.5 bg-n-8" style={{clipPath: "url(#benefits)"}}>
@@ -46,7 +46,7 @@ const Benefits = () => {
                                 {/*<p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">*/}
                                 {/*  Explore more*/}
                                 {/*</p>*/}
-                                <Arrow/>
+                                {/*<Arrow/>*/}
                             </div>
                         </div>
                         <div className="absolute inset-0.5 bg-n-8" style={{clipPath: "url(#benefits)"}}>
@@ -67,7 +67,7 @@ const Benefits = () => {
                                 {/*<p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">*/}
                                 {/*  Explore more*/}
                                 {/*</p>*/}
-                                <Arrow/>
+                                {/*<Arrow/>*/}
                             </div>
                         </div>
                         <div className="absolute inset-0.5 bg-n-8" style={{clipPath: "url(#benefits)"}}>
@@ -88,7 +88,7 @@ const Benefits = () => {
                                 {/*<p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">*/}
                                 {/*  Explore more*/}
                                 {/*</p>*/}
-                                <Arrow/>
+                                {/*<Arrow/>*/}
                             </div>
                         </div>
                         <div className="absolute inset-0.5 bg-n-8" style={{clipPath: "url(#benefits)"}}>
@@ -109,7 +109,7 @@ const Benefits = () => {
                                 {/*<p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">*/}
                                 {/*  Explore more*/}
                                 {/*</p>*/}
-                                <Arrow/>
+                                {/*<Arrow/>*/}
                             </div>
                         </div>
                         <div className="absolute inset-0.5 bg-n-8" style={{clipPath: "url(#benefits)"}}>
@@ -130,7 +130,7 @@ const Benefits = () => {
                                 {/*<p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">*/}
                                 {/*  Explore more*/}
                                 {/*</p>*/}
-                                <Arrow/>
+                                {/*<Arrow/>*/}
                             </div>
                         </div>
                         <div className="absolute inset-0.5 bg-n-8" style={{clipPath: "url(#benefits)"}}>

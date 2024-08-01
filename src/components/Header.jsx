@@ -5,13 +5,16 @@ import {navigation} from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import {HamburgerMenu} from "./design/Header";
-import {useState} from "react";
+import React, {useState} from "react";
 import {useTranslation} from "react-i18next";
 
 const Header = () => {
     const {t, i18n} = useTranslation();
     const pathname = useLocation();
     const [openNavigation, setOpenNavigation] = useState(false);
+    const changeLanguage = (language) => {
+        i18n.changeLanguage(language)
+    }
 
     const toggleNavigation = () => {
         if (openNavigation) {
@@ -78,8 +81,23 @@ const Header = () => {
                     {/*</div>*/}
                     <HamburgerMenu/>
                 </nav>
+
+                <ul className="flex gap-5 flex-wrap">
+                    <button className="hidden lg:flex" href="#login" onClick={() => changeLanguage("pl")}>
+                        PL
+                    </button>
+                    <button className="hidden lg:flex" href="#login" onClick={() => changeLanguage("ru")}>
+                        RU
+                    </button>
+                    <button className="hidden lg:flex" href="#login" onClick={() => changeLanguage("en")}>
+                        EN
+                    </button>
+                </ul>
+
+
                 <a href="#signup" className="button hidden mr-8 text-n-2/50 transition-colors hover:text-n-1 lg:block">
-                    <div>{t("newAccount")}</div>
+                    {/*<div>{t("newAccount")}</div>*/}
+
                 </a>
                 <Button className="hidden lg:flex" href="#login">
                     {t("signIn")}

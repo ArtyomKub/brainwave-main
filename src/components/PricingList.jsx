@@ -15,7 +15,7 @@ const PricingList = () => {
                     <>
                         <div className="h3">$</div>
                         <div className="text-[5.5rem] leading-none font-bold">
-                            9.99
+                            Free
                         </div>
                     </>
                 </div>
@@ -85,13 +85,13 @@ const PricingList = () => {
                 <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">{t("priceThreeTitle")}</p>
                 <div className="flex items-center h-[5.5rem] mb-6">
                     <>
-                        <div className="h3">$</div>
+                        <div className="h3"></div>
                         <div className="text-[5.5rem] leading-none font-bold">
-                            349.99
+
                         </div>
                     </>
                 </div>
-                <Button className="w-full mb-6" href={"mailto:biteamsoft@gmail.com"}>GET STARTED</Button>
+                <Button className="w-full mb-6" href={"mailto:biteamsoft@gmail.com"}>CONTACT US</Button>
                 <ul>
                     <li className="flex items-start py-5 border-t border-n-6">
                         <img src={check} width={24} height={24} alt="Check"/>
