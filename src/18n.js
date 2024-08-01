@@ -18,6 +18,9 @@ i18n.use(I18NextHttpBackend).use(I18nextBrowserLanguageDetector).use(initReactI1
     interpolation: {
         escapeValue: false
     },
+    backend: {
+        loadPath: '/brainwave-main/locales/{{lng}}/translation.json'
+    }
 })
 
 export default i18n;
